@@ -1,4 +1,4 @@
-from geventwebsocket.handler import WebSocketHandler
+'''from geventwebsocket.handler import WebSocketHandler
 from gevent.pywsgi import WSGIServer
 from flask import Flask, request, render_template
 
@@ -20,3 +20,4 @@ def api():
 if __name__ == '__main__':
     http_server = WSGIServer(('',5000), app, handler_class=WebSocketHandler)
     http_server.serve_forever()
+'''
