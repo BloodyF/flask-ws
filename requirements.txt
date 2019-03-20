@@ -1,5 +1,3 @@
 gunicorn
 Flask
-geventwebsocket
-gevent
 flask_sockets
